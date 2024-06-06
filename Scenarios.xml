@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenarios>
+  <rarity type="Common">
+    <scenario id="1">
+      <type>conversation_with_choice</type>
+      <text>You encounter a friendly NPC. What do you do?</text>
+      <choices>
+        <choice>
+          <text>Talk to the NPC</text>
+          <result>You learn valuable information.</result>
+        </choice>
+        <choice>
+          <text>Ignore the NPC</text>
+          <result_text>You miss out on potential rewards.</result_text>
+        </choice>
+      </choices>
+    </scenario>
+    <scenario id="2">
+      <type>conversation_with_choice</type>
+      <text>You encounter a Goblin, it doesn't seem hostile. What do you do?</text>
+      <choices>
+        <choice>
+          <text>Talk to the goblin</text>
+          <result>The goblin seems agitated, it attacks you.</result>
+        </choice>
+        <choice>
+          <text>Ignore the goblin</text>
+          <result_text>You left the goblin alone.</result_text>
+        </choice>
+      </choices>
+    </scenario>
+    <scenario id="3">
+      <type>conversation_with_choice</type>
+      <text>You stumbled upon a worn-out equipment. What do you do?</text>
+      <choices>
+        <choice>
+          <text>Take it</text>
+          <result>You take the worn out equipment.</result>
+        </choice>
+        <choice>
+          <text>Leave it</text>
+          <result_text>You left the equipment.</result_text>
+      </choice>
+      </choices>
+    </scenario>
+  </rarity>
+  <!-- Add more scenarios here -->
+</scenarios>

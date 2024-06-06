@@ -5,6 +5,7 @@
 int main()
 {
 
-	std::cout << "First init" << "\n";
+	std::cout << "Second init" << "\n";
+	std::cout << "Third init" << "\n";
 	return 0;
 }

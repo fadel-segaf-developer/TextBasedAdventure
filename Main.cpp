@@ -5,7 +5,6 @@
 int main()
 {
 
-	std::cout << "Second init" << "\n";
-	std::cout << "Third init" << "\n";
+	std::cout << "fourth commit" << "\n";
 	return 0;
 }

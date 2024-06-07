@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Choice.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Scenario.h" />
@@ -134,6 +135,7 @@
     <ClInclude Include="xmlParser.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Choice.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Player.cpp" />

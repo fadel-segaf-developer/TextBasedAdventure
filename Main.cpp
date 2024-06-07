@@ -26,7 +26,9 @@ void init()
     std::cout << preRandomizedVector.size() << std::endl;
     for (int i = 0; i < size; i++)
     {
-        std::cout << preRandomizedVector[i].getId() << std::endl;
+        std::cout << preRandomizedVector[i].getId() << "\n";
+        std::cout << preRandomizedVector[i].getType() << "\n";
+        std::cout << preRandomizedVector[i].getText() << "\n";
     }
 
     // Create World object with pre-populated vectors
